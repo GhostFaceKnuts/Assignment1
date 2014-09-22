@@ -87,6 +87,7 @@
     <Content Include="CSS\main.css" />
     <Content Include="CSS\normalize.css" />
     <Content Include="humans.txt" />
+    <Content Include="img\footer.jpg" />
     <Content Include="img\logo.JPG" />
     <Content Include="index.html" />
     <Content Include="JavaScript\foundation.min.js" />

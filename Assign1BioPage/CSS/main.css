@@ -1,8 +1,21 @@
 ﻿
 
-header {
+header h1 {
     font-family: Papyrus;
-    background-color: black;
-    font-size: large;
-    color: #fb5309;
+    background-color: #01939A;
+    color: #ffffff;
+}
+
+nav {
+    color: #ff7600;
+}
+
+main {
+    background-color: #34c6cd;
+    
+}
+
+footer {
+    min-height: 30px;
+    background-image: url('../img/footer.jpg');
 }
