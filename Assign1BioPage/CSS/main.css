@@ -1,21 +1,59 @@
-﻿
+﻿header {
+    background-color: #ff7600;
+    height: 100%;
+}
 
 header h1 {
     font-family: Papyrus;
-    background-color: #01939A;
     color: #ffffff;
+}
+
+header img {
+    min-height: 200px;
 }
 
 nav {
     color: #ff7600;
+    width: 100%;
 }
 
-main {
-    background-color: #34c6cd;
-    
+#main {
+    background-color: #01939a;
 }
+
 
 footer {
-    min-height: 30px;
-    background-image: url('../img/footer.jpg');
+    min-height: 255px;
+    bottom: 0;
+    width: 100%;
+    min-height: 100%;
+    overflow: auto;
+
+}
+
+#top {
+    background-image: url('../img/footerTop.jpg');
+    min-height: 155px;
+    width: 100%;
+}
+
+#bottom {
+    background-color: black;
+    min-height: 100px;
+    overflow: auto;
+}
+
+#bottom img, p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif
+}
+
+footer hr {
+    color: #ff7600;
 }
