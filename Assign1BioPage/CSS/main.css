@@ -8,26 +8,34 @@ header h1 {
     color: #ffffff;
 }
 
-header img {
-    min-height: 200px;
+header p {
+    font-family: Papyrus;
+    color: #ffffff;
+
+}
+
+#logo img {
+    max-height: 100px;
+    min-height: 100px;
+    min-width: 60px;
+    
 }
 
 nav {
-    color: #ff7600;
-    width: 100%;
+    max-width: 100%;
 }
 
 #main {
-    background-color: #01939a;
+    background-color: white;
 }
+
 
 
 footer {
     min-height: 255px;
     bottom: 0;
-    width: 100%;
-    min-height: 100%;
     overflow: auto;
+
 
 }
 
@@ -40,20 +48,18 @@ footer {
 #bottom {
     background-color: black;
     min-height: 100px;
+    width: 100%;
     overflow: auto;
 }
 
-#bottom img, p {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 footer p {
     color: white;
     font-family: 'Times New Roman', Times, serif
 }
 
-footer hr {
+
+footer h5 {
     color: #ff7600;
+    font-family: Papyrus;
 }
