@@ -14,46 +14,41 @@
     <div data-role="page" id="home">
         <!--Navigation Bar-->
         <nav data-role="navbar" class="row top-bar-section contain-to-grid sticky">
-            <ul class="left">
+            <ul class="right">
+                <li class="current">
+                    <a href="index.html">Home</a>
+                </li>
                 <li>
-                    <h1>Welcome to my Site</h1>
+                    <a href="about.html">About Me</a>
+                </li>
+                <li>
+                    <a href="#services" data-reveal-id="services">Services</a>
+                    <div id="services" class="reveal-modal" data-reveal>
+                        <h2>Services</h2>
+                        <p class="lead">How can I help?</p>
+                        <ul>
+                            <li>Website design</li>
+                            <li>Website maintenance</li>
+                            <li>Application design/development</li>
+                        </ul>
+                        <a class="close-reveal-modal">&#215;</a>
+                    </div>
+                </li>
+                <li><a href="https://github.com/GhostFaceKnuts">GitHub</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li>
+                    <a href="#modal" data-reveal-id="myModal">Contact Me</a>
+                    <div id="myModal" class="reveal-modal" data-reveal>
+                        <h2>Please Keep in Touch</h2>
+                        <p class="lead" data-role="listview">Contact:</p>
+                        <p>Ian Knutson</p>
+                        <p>c:(289)500-5593</p>
+                        <p>e:inrknuts@gmail.com</p>
+                        <a class="close-reveal-modal">&#215;</a>
+                    </div>
                 </li>
             </ul>
-                <ul class="right">
-                    <li class="current">
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#services" data-reveal-id="services">Services</a>
-                        <div id="services" class="reveal-modal" data-reveal>
-                            <h2>Services</h2>
-                            <p class="lead">How can I help?</p>
-                            <ul>
-                                <li>Website design</li>
-                                <li>Website maintenance</li>
-                                <li>Application design/development</li>
-                            </ul>
-                            <a class="close-reveal-modal">&#215;</a>
-                        </div>
-                    </li>
-                    <li><a href="https://github.com/GhostFaceKnuts">GitHub</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li>
-                        <a href="#modal" data-reveal-id="myModal">Contact Me</a>
-                        <div id="myModal" class="reveal-modal" data-reveal>
-                            <h2>Please Keep in Touch</h2>
-                            <p class="lead" data-role="listview">Contact:</p>
-                            <p>Ian Knutson</p>
-                            <p>c:(289)500-5593</p>
-                            <p>e:inrknuts@gmail.com</p>
-                            <a class="close-reveal-modal">&#215;</a>
-                        </div>
-                    </li>
-                </ul>
-</nav>
+        </nav>
 
         <!--Header and logo-->
         <header class="row contain-to-grid">
@@ -62,49 +57,24 @@
             </div>
             <div id="name" class="small-9 medium-10 large-11 column right">
                 <h2>Ian Knutson</h2>
-                <div class="right">
-                    <p class="right-align">Please allow me to introduce myself...</p>
-                </div>
+                <p>Please allow me to introduce myself...</p>
             </div>
         </header>
 
         <!--Main Body of Home Page-->
-        <br />
         <section data-role="content">
             <div id="main" class="row">
-                <div id="container-left" class="small-12 medium-4 large-4  columns left">
-                    <h3>Web Developer &amp; Programmer</h3>
+                <div id="body-container-left" class="small-12 medium-4 large-4  columns left radius">
+                    <h3>About Me</h3>
                     <p>Laoreet ac, aliquam sit amet justo nunc tempor, metus vel placerat suscipit, orci nisl iaculis eros, a tincidunt nisi odio eget lorem nulla condimentum tempor mattis ut vitae feugiat augue cras ut metus a risus iaculis scelerisque eu ac ante fusce non varius purus aenean nec magna felis fusce vestibulum.</p>
                 </div>
-                <div id="container-right" class="small-12 medium-8 large-8 columns right">
-                    <!--Orbit Slider-->
-                    <div class="orbit-container right">
-                        <ul data-orbit class="dark ororbit-slides-container">
-                            <li>
-                                <img src="img/stickman2.gif" alt="stickman game" />
-                                <div class="orbit-caption">
-                                    <p>Level 3</p>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="img/stickman0.gif" alt="stickman game" />
-                                <div class="orbit-caption">
-                                    <p>Level 1</p>
-                                </div>
-                            </li>
-                            <li class="active">
-                                <img src="img/stickman1.gif" alt="stickman game" />
-                                <div class="orbit-caption">
-                                    <p>Level 2</p>
-                                </div>
-                            </li>
-                        </ul>
-                        <!-- Timer and Play/Pause Button -->
-                        <div class="orbit-timer">
-                            <span></span>
-                            <div class="orbit-progress"></div>
-                        </div>
-                    </div><!--Orbit Container-->
+                <div id="body-container-middle" class="small-12 medium-4 large-4 columns right">
+                    <h3>Education</h3>
+                    <p>Laoreet ac, aliquam sit amet justo nunc tempor, metus vel placerat suscipit, orci nisl iaculis eros, a tincidunt nisi odio eget lorem nulla condimentum tempor mattis ut vitae feugiat augue cras ut metus a risus iaculis scelerisque eu ac ante fusce non varius purus aenean nec magna felis fusce vestibulum.</p>
+                </div>
+                <div id="body-container-right" class="small-12 medium-4 large-4 columns right">
+                    <h3>Work Experience</h3>
+                    <p>Laoreet ac, aliquam sit amet justo nunc tempor, metus vel placerat suscipit, orci nisl iaculis eros, a tincidunt nisi odio eget lorem nulla condimentum tempor mattis ut vitae feugiat augue cras ut metus a risus iaculis scelerisque eu ac ante fusce non varius purus aenean nec magna felis fusce vestibulum.</p>
                 </div>
             </div>
         </section>
@@ -160,11 +130,9 @@
     <!--JavaScript Section-->
     <script src="JavaScript/vendor/jquery.js"></script>
     <script src="JavaScript/foundation.min.js"></script>
-    <script src="JavaScript/foundation/foundation.topbar.js"></script>
     <script>
         $(document).foundation();
     </script>
     <script src="JavaScript/main.js"></script>
 </body>
 </html>
-

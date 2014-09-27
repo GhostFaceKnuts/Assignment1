@@ -1,32 +1,35 @@
-﻿header {
-    background-color: #ff7600;
-    height: 100%;
-}
-
-header h1 {
+﻿
+header {
     font-family: Papyrus;
-    color: #ffffff;
+    color: white;
+    background-color: white;
+    border: 2px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
-header p {
+header #name h1,h2,h3 {
     font-family: Papyrus;
-    color: #ffffff;
-
+    background-color: goldenrod;
+    border: 2px;
+    border-radius: 20px;
 }
 
-#logo img {
+
+header #logo img {
     max-height: 100px;
     min-height: 100px;
     min-width: 60px;
-    
+    border: 2px;
+    border-radius: 20px;
 }
 
 nav {
     max-width: 100%;
 }
 
-#main {
-    background-color: white;
+nav li {
+    list-style-type: none;
 }
 
 
@@ -35,21 +38,24 @@ footer {
     min-height: 255px;
     bottom: 0;
     overflow: auto;
-
-
+    width: 100%;
 }
 
 #top {
     background-image: url('../img/footerTop.jpg');
     min-height: 155px;
     width: 100%;
+    border: 2px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 #bottom {
     background-color: black;
     min-height: 100px;
-    width: 100%;
     overflow: auto;
+    width: 100%;
+
 }
 
 
@@ -60,6 +66,7 @@ footer p {
 
 
 footer h5 {
-    color: #ff7600;
+    color: goldenrod;
     font-family: Papyrus;
 }
+

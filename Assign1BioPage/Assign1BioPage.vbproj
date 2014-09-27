@@ -82,6 +82,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="about.html" />
     <Content Include="CSS\foundation.css" />
     <Content Include="CSS\foundation.min.css" />
     <Content Include="CSS\main.css" />
