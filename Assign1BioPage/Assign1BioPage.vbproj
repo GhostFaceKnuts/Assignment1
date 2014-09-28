@@ -84,8 +84,13 @@
   <ItemGroup>
     <Content Include="about.html" />
     <Content Include="contact.html" />
+    <Content Include="img\raspberryPi.jpg" />
+    <Content Include="img\RPG.jpg" />
+    <Content Include="img\suit.jpg" />
+    <Content Include="img\bw.jpg" />
     <Content Include="img\circuits.jpg" />
     <Content Include="img\LogoGFK.JPG" />
+    <Content Include="img\sweetbearbaits.png" />
     <Content Include="services.html" />
     <Content Include="CSS\foundation.css" />
     <Content Include="CSS\foundation.min.css" />
@@ -466,6 +471,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="img\.gitkeep" />
+    <Content Include="Ian_Knutson_Resume_Programming_2014_09_28_23_52_28_298.pdf" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

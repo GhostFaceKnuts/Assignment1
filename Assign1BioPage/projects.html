@@ -42,14 +42,13 @@
             </ul>
         </nav>
         <!--end navbar section-->
-
         <!--Header and logo-->
         <header class="row contain-to-grid">
             <div id="logo" class="small-5 medium-2 large-2 columns left">
                 <img src="img/LogoGFK.JPG" />
             </div>
             <div id="name" class="small-7 medium-10 large-10 columns right">
-                <div class="text-center">
+                <div>
                     <h1>Ian Knutson</h1>
                 </div>
                 <div class="right">
@@ -58,7 +57,6 @@
             </div>
         </header>
         <!--end header section-->
-
         <!--horizontal line-->
         <div class="row">
             <hr />
@@ -66,10 +64,71 @@
 
         <!--Main Body of Projects Page-->
         <br />
-        <section data-role="content">
-            <div>
+        <main>
+            <div id="projectbody" class="row">
+                <dl class="tabs" data-tab>
+                    <dd class="active"><a href="#featuredwork"><h3>FEATURED WORK</h3></a></dd>
+                    <dd><a href="#quizgame"><h4>Quiz Game</h4></a></dd>
+                    <dd><a href="#webadmin"><h4>Web Admin</h4></a></dd>
+                    <dd><a href="#rpg"><h4>Online Turn-Based RPG</h4></a></dd>
+                </dl>
+                <div class="tabs-content">
+                    <!--First Tab - Featured work-->
+                    <div class="content active" id="featuredwork">
+
+                        <img src="img/raspberryPi.jpg" />
+                    </div>
+                    <!--Second Tab - Quiz-->
+                    <div class="content" id="quizgame">
+                        <div class="row">
+                            <div class="small-12 large-4 columns left">
+                                <br /><br />
+                                <h4>Dungeon Crawler Quiz Game</h4>
+                                <br />
+                                <h5>This is a classic stick-man adventure. Answer questions correctly to escape the dungeon. Answer more questions correctly and you'll gain more treasure along the way. Your performance effects how the game plays out.</h5>
+                                <br /><br /><br />
+                                <h5>You may even find a life-time supply of Chapstick!</h5>
+                            </div>
+                            <div class="small-12 large-8 columns right">
+                                <div class="medium-block-grid-3">
+                                    <img src="img/stickman0.gif" />
+                                    <img src="img/stickman1.gif" />
+                                    <img src="img/stickman2.gif" />
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--Third Tab - Web Admin-->
+                    <div class="content" id="webadmin">
+                        <h5>Though I did not design or create this webpage I have recently taken on the role of administration for <a href="www.http://sweetbearbaits.com">www.http://sweetbearbaits.com</a>. Please click the link and check it out for yourself.</h5>
+                        <br />
+                        <img src="img/sweetbearbaits.png" />
+
+                    </div>
+                    <div class="content" id="rpg">
+                        <div class="row">
+                            <div class="medium-4 large-5 columns left">
+                                <h6>
+                                    I am excited to start working on an online web-based role-playing game. It will be a GitHub project, in collaboration with other web developers, programmers and graphic design students.
+                                </h6>
+                                <br />
+                                <h6>
+                                    What can you expect? Well, the idea is to have a graphical representation of inventory and character (think <a href="http://us.battle.net/d3/en/game/guide/items/inventory">Blizzard Studio's Diablo 3</a>) with the gameplay style of <a href="http://www.kingdomofloathing.com/login.php?loginid=d9cbacda2c3d417cb95d2222e0930faa">Kingdom of Loathing</a>.
+                                </h6>
+                                <br />
+                                <h6>
+                                    While you can adventure alone, we want this to be a social game where you can connect with friends and go kill kobolds...or whatever...together.  Having the nostalgia of early text-based RPGs and the modern visualizations that gamers have come to expect, I think this is going to be awesome!  
+                                </h6>
+                            </div>
+                            <div class="medium-8 large-7 columns large-centered right">
+                                <img src="img/RPG.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
+        </main>
 
         <!--horizontal line-->
         <div class="row">
@@ -78,10 +137,10 @@
 
         <!--Footer Section-->
         <footer data-role="footer" class="row">
-            <!--Top Image forest-->
+            <!--Top of footer-->
             <div id="top" class="small-12 large-12 columns">
             </div>
-            <!--Bottom portion Content-->
+            <!--Bottom of footer-->
             <div id="bottom" class="small-12 large-12 columns">
                 <div class="row">
                     <div class="small-4 columns text-center">
