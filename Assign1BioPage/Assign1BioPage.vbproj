@@ -83,6 +83,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.html" />
+    <Content Include="contact.html" />
+    <Content Include="img\circuits.jpg" />
+    <Content Include="img\LogoGFK.JPG" />
+    <Content Include="services.html" />
     <Content Include="CSS\foundation.css" />
     <Content Include="CSS\foundation.min.css" />
     <Content Include="CSS\main.css" />
@@ -398,6 +402,7 @@
     <Content Include="img\footerTop.jpg" />
     <Content Include="img\logo.JPG" />
     <Content Include="img\logoBlack.JPG.JPG" />
+    <Content Include="img\logoDark.jpg" />
     <Content Include="img\stickman0.gif" />
     <Content Include="img\stickman1.gif" />
     <Content Include="img\stickman2.gif" />
@@ -426,6 +431,7 @@
     <Content Include="JavaScript\vendor\jquery.js" />
     <Content Include="JavaScript\vendor\modernizr.js" />
     <Content Include="JavaScript\vendor\placeholder.js" />
+    <Content Include="projects.html" />
     <Content Include="robots.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
