@@ -34,6 +34,17 @@ nav li {
     list-style-type: none;
 }
 
+#welcome {
+    border: 2px;
+    border-color: black;
+}
+
+#aboutright img {
+    max-height: 300px;
+    border: 2px;
+    border-radius: 20px;
+}
+
 
 footer {
     min-height: 255px;
@@ -62,8 +73,8 @@ footer {
 #middle img {
     min-height: 100px;
     max-height: 100px;
-    max-width: 60px;
-    padding-top: 10px;
+    max-width: 100px;
+    min-width: 100px;
 }
 
 footer p {
@@ -75,6 +86,13 @@ footer p {
 footer h5 {
     color: goldenrod;
     font-family: Papyrus;
+}
+
+#footerlogo img {
+    max-height: 100px;
+    min-height: 100px;
+    max-width: 70px;
+    min-width: 60px;
 }
 
 #cv {

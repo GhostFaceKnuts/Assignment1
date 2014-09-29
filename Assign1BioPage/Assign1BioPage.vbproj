@@ -84,13 +84,17 @@
   <ItemGroup>
     <Content Include="about.html" />
     <Content Include="contact.html" />
+    <Content Include="img\GitHub-Mark.png" />
+    <Content Include="img\IMAG0034.jpg" />
+    <Content Include="img\logo.ico" />
+    <Content Include="img\quizicon.png" />
     <Content Include="img\raspberryPi.jpg" />
     <Content Include="img\RPG.jpg" />
     <Content Include="img\suit.jpg" />
-    <Content Include="img\bw.jpg" />
-    <Content Include="img\circuits.jpg" />
     <Content Include="img\LogoGFK.JPG" />
     <Content Include="img\sweetbearbaits.png" />
+    <Content Include="img\sword.png" />
+    <Content Include="img\webdesignicon.png" />
     <Content Include="services.html" />
     <Content Include="CSS\foundation.css" />
     <Content Include="CSS\foundation.min.css" />
@@ -402,11 +406,9 @@
     <Content Include="CSS\webicons\webicon-zerply.png" />
     <Content Include="CSS\webicons\webicon-zerply.svg" />
     <Content Include="humans.txt" />
-    <Content Include="img\Arduino_Uno_-_R3.jpg" />
     <Content Include="img\footerBottom.png" />
     <Content Include="img\footerTop.jpg" />
     <Content Include="img\logo.JPG" />
-    <Content Include="img\logoBlack.JPG.JPG" />
     <Content Include="img\logoDark.jpg" />
     <Content Include="img\stickman0.gif" />
     <Content Include="img\stickman1.gif" />
